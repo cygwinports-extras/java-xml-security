@@ -1,0 +1,11 @@
+JAVA_CLASSPATH="commons-logging.jar:log4j.jar:serializer.jar:xalan.jar:xml-apis.jar:xercesImpl.jar"
+inherit ant
+
+DESCRIPTION="Java XML Security library"
+HOMEPAGE="http://santuario.apache.org/Java/"
+SRC_URI="http://santuario.apache.org/dist/java-library/${ORIG_PN}-src-${PV//./_}.zip"
+SRC_DIR=${ORIG_PN}-${PV//./_}
+
+ANT_BUILD_TARGETS="build.src.jar build.docs"
+ANT_INSTALL_JARS="build/*.jar"
+ANT_INSTALL_JAVADOC="build/docs/html/javadoc"

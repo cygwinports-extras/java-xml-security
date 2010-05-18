@@ -1,0 +1,5 @@
+category: Java
+requires: java-commons-logging java-log4j java-xalan java-xml-commons-external java-xerces2
+sdesc: "Java XML signature and encryption library"
+ldesc: "The Apache-XML-Security-J 1.4 supports XML-Signature Syntax and 
+Processing and XML Encryption Syntax and Processing W3C Recommendations."
